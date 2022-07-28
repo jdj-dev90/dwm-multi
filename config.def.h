@@ -13,12 +13,13 @@ static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
 static const char col_urgborder[]   = "#ff0000";
-static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
-	[SchemeUrg]  = { col_gray4, col_cyan,  col_urgborder  },
-};
+#include "/home/jordan/.cache/wal/colors-wal-dwm.h"
+// static const char *colors[][3]      = {
+// 	/*               fg         bg         border   */
+// 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
+// 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+// 	[SchemeUrg]  = { col_gray4, col_cyan,  col_urgborder  },
+// };
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
